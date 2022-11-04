@@ -165,3 +165,12 @@ class CfgVehicles
 		};
 	};
 }
+class CfgSlots
+{
+	class All_You_Can_Eat
+	{
+		name = "AllYouCanEat";
+		displayName = "Food";
+		ghostIcon = "food";
+	};
+};
