@@ -1,0 +1,2 @@
+Nächster Mod der geplant ist:
+Ein NachtsichtBinocular. Grunditem das Normale Fernglas mit neuer Textur und einer Nachtsicht funktion.
