@@ -33,7 +33,6 @@ class CfgVehicles
 		repairCosts[] = { 25 };
 		isMeleeWeapon = 1;
 		hiddenSelections[] = { "zbytek", "camo" };
-		m_AllowedCargo = { "SodaCan_ColorBase", "Bottle_Base", "Edible_Base" };
 		m_SpecialNotAllowedCargo = { "Weapon_Base" };
 		hiddenSelectionsTextures[] =
 		{ 
@@ -41,6 +40,10 @@ class CfgVehicles
 			"lunchbox\data\lunchbox_co.paa",
 			"lunchbox\data\lunchbox_co.paa"
 		};
+		attachments[]=
+		{
+			"AllCouCanEat"	
+		}
 
 		
 	};
@@ -55,14 +58,7 @@ class CfgVehicles
 		};
 		inventorySlot[] =
 		{
-			"food",
-			"food1",
-			"food2",
-			"food3",
-			"food4",
-			"food5",
-			"food6",
-			"food7"
+			"AllCouCanEat"
 		};
 		class AnimEvents
 		{
