@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class DZ_Gear_Containers
+	class stuecki_lunchbox
 	{
 		units[] = {};
 		weapons[] = {};
@@ -24,8 +24,8 @@ class CfgVehicles
 		descriptionShort = "Kleine Dose fuers Essen";
 		rotationFlags = 17;
 		weight = 140;
-		itemSize[] = { 4,4 };
-		itemsCargoSize[] = { 1,1 };
+		itemSize[] = { 2,1 };
+		itemsCargoSize[] = { 0,0 };
 		allowOwnedCargoManipulation = 1;
 		randomQuantity = 2;
 		canBeDigged = 1;
@@ -35,13 +35,20 @@ class CfgVehicles
 		hiddenSelections[] = { "zbytek", "camo" };
 		hiddenSelectionsTextures[] =
 		{
-			"lunchbox\data\lunchbox_co.paa",
-			"lunchbox\data\lunchbox_co.paa",
-			"lunchbox\data\lunchbox_co.paa"
+			"stuecki_lunchbox\data\lunchbox_co.paa",
+			"stuecki_lunchbox\data\lunchbox_co.paa",
+			"stuecki_lunchbox\data\lunchbox_co.paa"
 		};
 		attachments[] =
 		{
-			"AllYouCanEat"
+			"AllYouCanEat",
+			"AllYouCanEat1",
+			"AllYouCanEat2",
+			"AllYouCanEat3",
+			"AllYouCanEat4",
+			"AllYouCanEat5",
+			"AllYouCanEat6",
+			"AllYouCanEat7"
 		};
 	};
 	class SodaCan_NewPipsi : Edible_Base
@@ -61,7 +68,14 @@ class CfgVehicles
 		};
 		inventorySlot[] =
 		{
-			"AllYouCanEat"
+			"AllYouCanEat",
+			"AllYouCanEat1",
+			"AllYouCanEat2",
+			"AllYouCanEat3",
+			"AllYouCanEat4",
+			"AllYouCanEat5",
+			"AllYouCanEat6",
+			"AllYouCanEat7"
 		};
 		class DamageSystem
 		{
@@ -170,6 +184,49 @@ class CfgSlots
 	class All_You_Can_Eat
 	{
 		name = "AllYouCanEat";
+		displayName = "Food";
+		ghostIcon = "food";
+	};
+	class All_You_Can_Eat1
+	{
+		name = "AllYouCanEat1";
+		displayName = "Food";
+		ghostIcon = "food";
+	};
+	class All_You_Can_Eat2
+	{
+		name = "AllYouCanEat2";
+		displayName = "Food";
+		ghostIcon = "food";
+
+	};
+	class All_You_Can_Eat3
+	{
+		name = "AllYouCanEat3";
+		displayName = "Food";
+		ghostIcon = "food";
+	};
+	class All_You_Can_Eat4
+	{
+		name = "AllYouCanEat4";
+		displayName = "Food";
+		ghostIcon = "food";
+	};
+	class All_You_Can_Eat5
+	{
+		name = "AllYouCanEat5";
+		displayName = "Food";
+		ghostIcon = "food";
+	};
+	class All_You_Can_Eat6
+	{
+		name = "AllYouCanEat6";
+		displayName = "Food";
+		ghostIcon = "food";
+	};
+	class All_You_Can_Eat7
+	{
+		name = "AllYouCanEat7";
 		displayName = "Food";
 		ghostIcon = "food";
 	};
